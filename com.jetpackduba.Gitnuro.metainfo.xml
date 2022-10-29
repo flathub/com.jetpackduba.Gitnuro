@@ -16,10 +16,11 @@
 	<content_rating type="oars-1.1" />
 	<screenshots>
 		<screenshot>
-			<image type="source">https://github.com/JetpackDuba/Gitnuro/blob/main/res/img/example_2.png?raw=true</image>
+			<image type="source">https://github.com/JetpackDuba/Gitnuro/raw/main/res/img/cover.png</image>
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.1.0" date="2022-10-29"/>
 		<release version="1.0.1" date="2022-08-07"/>
 		<release version="1.0.0" date="2022-08-06"/>
 		<release version="0.1.1" date="2022-04-07"/>
