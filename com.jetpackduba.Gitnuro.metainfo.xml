@@ -16,7 +16,7 @@
 	<content_rating type="oars-1.1" />
 	<screenshots>
 		<screenshot>
-			<image type="source">https://github.com/JetpackDuba/Gitnuro/blob/main/res/img/example_2.png?raw=true</image>
+			<image type="source">https://github.com/JetpackDuba/Gitnuro/raw/main/res/img/cover.png</image>
 		</screenshot>
 	</screenshots>
 	<releases>
