@@ -20,7 +20,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D gitnuro /app/bin/gitnuro
-      - install -D Gitnuro-linux-1.1.0.jar /app/share/Gitnuro.jar
+      - install -D Gitnuro-linux-1.1.1.jar /app/share/Gitnuro.jar
       - install -D com.jetpackduba.Gitnuro.desktop /app/share/applications/com.jetpackduba.Gitnuro.desktop
       - install -D icon.png /app/share/icons/hicolor/512x512/apps/com.jetpackduba.Gitnuro.png
       - install -D com.jetpackduba.Gitnuro.metainfo.xml /app/share/appdata/com.jetpackduba.Gitnuro.metainfo.xml
@@ -28,8 +28,8 @@ modules:
       - type: file
         path: gitnuro
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.1.0/Gitnuro-linux-1.1.0.jar
-        sha256: b40145975e2699784bafa57fbd30def65c17eedaec6935a022a930c43de6054c
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.1.0/Gitnuro-linux-1.1.1.jar
+        sha256: ba064193f690da98cbf7163aea0db4328ac0434d861c87494eff1e8da75a0606
       - type: file
         path: com.jetpackduba.Gitnuro.desktop
       - type: file
