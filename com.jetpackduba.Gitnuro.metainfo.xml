@@ -20,6 +20,24 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.1.1" date="2022-11-15">
+		<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.1.1</url>
+			<description>
+				<p>UI</p>
+				<ul>
+				<li>Improved graph visualization so it's easier to follow branches.</li>
+				<li>Added noto sans to be the default mono font</li>
+				</ul>
+				
+				<p>Bugfixes</p>
+				<ul>
+				<li>Fixed tabs scrollbar handling clicks when it isn't visible. Now clicking on the top part of a tab will work as expected.</li>
+				<li>Fixed repository state not refreshing if branch checkout has failed after creation.</li>
+				<li>Fixed images opening in system default image viewer not working.</li>
+				<li>Fixed log splitter over-dragging when having density higher than 100%.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.1.0" date="2022-10-29"/>
 		<release version="1.0.1" date="2022-08-07"/>
 		<release version="1.0.0" date="2022-08-06"/>
