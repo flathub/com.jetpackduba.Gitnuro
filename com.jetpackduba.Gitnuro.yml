@@ -14,7 +14,6 @@ finish-args:
   - --device=dri
   - --socket=gpg-agent
   - --socket=session-bus
-  - --allow=devel
   - --socket=ssh-auth
 modules:
   - name: openjdk
