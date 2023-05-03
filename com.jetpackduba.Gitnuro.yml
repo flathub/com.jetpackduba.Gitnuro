@@ -9,18 +9,32 @@ finish-args:
   - --socket=x11
   - --share=ipc
   - --share=network
-  - --filesystem=home
+  - --filesystem=host
+  - --filesystem=xdg-run/gnupg
   - --device=dri
+  - --socket=gpg-agent
+  - --socket=session-bus
+  - --socket=ssh-auth
 modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
       - /usr/lib/sdk/openjdk17/install.sh
+  - name: libssh
+    cleanup:
+      - /include
+      - /share
+    buildsystem: cmake-ninja
+    builddir: true
+    sources:
+      - type: archive
+        url: https://git.libssh.org/projects/libssh.git/snapshot/libssh-0.10.4.tar.gz
+        sha256: c0c1f732a2f3d37f60889fa8d3a7a3b45e3b20cec3c96e1b2ffdf18ec2376968
   - name: gitnuro
     buildsystem: simple
     build-commands:
       - install -D gitnuro /app/bin/gitnuro
-      - install -D Gitnuro-linux-1.1.1.jar /app/share/Gitnuro.jar
+      - install -D Gitnuro-linux-1.2.0.jar /app/share/Gitnuro.jar
       - install -D com.jetpackduba.Gitnuro.desktop /app/share/applications/com.jetpackduba.Gitnuro.desktop
       - install -D icon.png /app/share/icons/hicolor/512x512/apps/com.jetpackduba.Gitnuro.png
       - install -D com.jetpackduba.Gitnuro.metainfo.xml /app/share/appdata/com.jetpackduba.Gitnuro.metainfo.xml
@@ -28,8 +42,8 @@ modules:
       - type: file
         path: gitnuro
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.1.1/Gitnuro-linux-1.1.1.jar
-        sha256: ba064193f690da98cbf7163aea0db4328ac0434d861c87494eff1e8da75a0606
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.2.0/Gitnuro-linux-1.2.0.jar
+        sha256: ff49f0446d76c865ec6fd05d6554a82399cefafa42f783856843f31dd6d26be8
       - type: file
         path: com.jetpackduba.Gitnuro.desktop
       - type: file
