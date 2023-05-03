@@ -44,7 +44,7 @@ modules:
         path: gitnuro
       - type: file
         url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.2.0/Gitnuro-linux-1.2.0.jar
-        sha256: ff49f0446d76c865ec6fd05d6554a82399cefafa42f783856843f31dd6d26be8
+        sha256: 07228e1856e50df654679cdb26b122ae35931200c9497fcfa77d0e2ee87ed1cc
       - type: file
         path: com.jetpackduba.Gitnuro.desktop
       - type: file
