@@ -33,6 +33,12 @@
 					<li>Button to open terminal.</li>
 					<li>Option to edit message when amending.</li>
 					<li>Search options for files and branches.</li>
+					<li>Option to set pull with rebase as default.</li>
+					<li>Added support for ARM.</li>
+				</ul>
+				<p>Bugfixes</p>
+				<ul>
+					<li>Fix external credentials manager on Flatpak version</li>
 				</ul>
 			</description>
 		</release>
