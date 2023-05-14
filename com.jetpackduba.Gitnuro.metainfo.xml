@@ -20,28 +20,69 @@
 		</screenshot>
 	</screenshots>
 	<releases>
-		<release version="1.1.1" date="2022-11-15">
-		<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.1.1</url>
+		<release version="1.2.1" date="2023-05-14">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.2.1</url>
 			<description>
-				<p>UI</p>
+				<p>Fixes and improvements</p>
 				<ul>
-				<li>Improved graph visualization so it's easier to follow branches.</li>
-				<li>Added noto sans to be the default mono font</li>
-				</ul>
-				
-				<p>Bugfixes</p>
-				<ul>
-				<li>Fixed tabs scrollbar handling clicks when it isn't visible. Now clicking on the top part of a tab will work as expected.</li>
-				<li>Fixed repository state not refreshing if branch checkout has failed after creation.</li>
-				<li>Fixed images opening in system default image viewer not working.</li>
-				<li>Fixed log splitter over-dragging when having density higher than 100%.</li>
+					<li>Added missing SSH support for submodules.</li>
+					<li>Enabled support by default for all supported formats by libssh (such as RSA).</li>
+					<li>Fixed crash on clicking "show password" button for SSH/GPG credentials.</li>
+					<li>Fixed size of text field in SSH/GPG credentials dialog to match the rest of the UI.</li>
+					<li>Added "show password" button to HttpAuthentication dialog.</li>
+					<li>Fixed scroll state behavior for commited changes not being preserved across tabs changes nor being reset when changing between commits.</li>
+					<li>Fixed diff scroll position not resetting when selecting different files.</li>
+					<li>Temporary files are now always removed when closing the app instead of relying on the OS to do it.</li>
+					<li>Added missing reference to LibSSH in the section of used libraries projects to create Gitnuro.</li>
+					<li>Updated libssh to 0.10.5.</li>
 				</ul>
 			</description>
 		</release>
-		<release version="1.1.0" date="2022-10-29"/>
-		<release version="1.0.1" date="2022-08-07"/>
-		<release version="1.0.0" date="2022-08-06"/>
-		<release version="0.1.1" date="2022-04-07"/>
+		<release version="1.2.0" date="2023-05-03">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.2.0</url>
+			<description>
+				<p>New features</p>
+				<ul>
+					<li>Submodules support.</li>
+					<li>SignOff support.</li>
+					<li>GPG support.</li>
+					<li>Option to change upstream branch.</li>
+					<li>LibSSH integration to support SSH-Agent.</li>
+					<li>Button to open terminal.</li>
+					<li>Option to edit message when amending.</li>
+					<li>Search options for files and branches.</li>
+					<li>Option to set pull with rebase as default.</li>
+					<li>Added support for ARM.</li>
+				</ul>
+				<p>Bugfixes</p>
+				<ul>
+					<li>Fix external credentials manager on Flatpak version</li>
+				</ul>
+			</description>
+		</release>
+		<release version="1.1.1" date="2022-11-15">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.1.1</url>
+			<description>
+				<p>UI</p>
+				<ul>
+					<li>Improved graph visualization so it's easier to follow branches.</li>
+					<li>Added noto sans to be the default mono font</li>
+				</ul>
+
+				<p>Bugfixes</p>
+				<ul>
+					<li>Fixed tabs scrollbar handling clicks when it isn't visible. Now clicking on
+						the top part of a tab will work as expected.</li>
+					<li>Fixed repository state not refreshing if branch checkout has failed after
+						creation.</li>
+					<li>Fixed images opening in system default image viewer not working.</li>
+					<li>Fixed log splitter over-dragging when having density higher than 100%.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="1.1.0" date="2022-10-29" />
+		<release version="1.0.1" date="2022-08-07" />
+		<release version="1.0.0" date="2022-08-06" />
+		<release version="0.1.1" date="2022-04-07" />
 	</releases>
 </component>
-
