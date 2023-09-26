@@ -20,6 +20,38 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.3.0" date="2023-09-26">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.2.0</url>
+			<description>
+				<p>New features</p>
+				<ul>
+					<li>Added 175% scale option</li>
+					<li>Restored Git directory changes detection</li>
+					<li>Proxy support</li>
+					<li>Settings UI/UX rework</li>
+					<li>Option to set a custom terminal emulator </li>
+					<li>Option to view full file in diff</li>
+					<li>Added drop and edit to rebase interactive</li>
+					<li>Fixed submodules not opening in windows </li>
+					<li>Tabs can now be closed when tertiary button (AKA the mouse wheel)</li>
+					<li>Option to swap unstaged/staged views order</li>
+					<li>Now the last repository opened is remembered</li>
+					<li>Force push now uses lease by default</li>
+					<li>Added option to specify the directory that will be created during a clone</li>
+					<li>Now the tabs are loaded lazily to avoid excessivo IO load when reopening the app and having many repositories open</li>
+					<li>Tabs can now be sorted</li>
+					<li>Changed settings files path to follow the XDG standard</li>
+					<li>HTTP credentials in-memory caching</li>
+				</ul>
+				<p>Bugfixes</p>
+				<ul>
+					<li>Fixed crash when trying to push via repository via SSH when lacking necessary rights</li>
+					<li>Fixed untracked files not being shown in stashes</li>
+					<li>Fixed crash when submodules conflict after a merge</li>
+					<li>Fixed submodule diff loading forever</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.2.1" date="2023-05-14">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.2.1</url>
 			<description>
