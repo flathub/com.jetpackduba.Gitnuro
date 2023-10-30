@@ -20,8 +20,24 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.3.1" date="2023-10-30">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.3.1</url>
+			<description>
+				<p>Changes</p>
+				<ul>
+					<li>Fixed error while pulling or pushing via SSH and using Bitbucket.</li>
+					<li>Improved "Stage all" speed in big repositories.</li>
+					<li>Fixed "Change upstream branch" crash.</li>
+					<li>Fixed constant reloading of log tree due to detection of changes.</li>
+					<li>Improved performance when doing large UI operations that may affect a lot of files.</li>
+					<li>Fixed diff headers disapearing when cliking on "split diff".</li>
+					<li>Fixed buttons being overlapped by text path in the diff header.</li>
+					<li>Fixed typo in settings.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.3.0" date="2023-09-26">
-			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.2.0</url>
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.3.0</url>
 			<description>
 				<p>New features</p>
 				<ul>
