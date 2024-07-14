@@ -15,8 +15,9 @@
 	<launchable type="desktop-id">com.jetpackduba.Gitnuro.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<screenshots>
-		<screenshot>
+		<screenshot type="default">
 			<image type="source">https://github.com/JetpackDuba/Gitnuro/raw/main/res/img/cover.png</image>
+			<caption>The Gitnuro main window</caption>
 		</screenshot>
 	</screenshots>
 	<releases>
