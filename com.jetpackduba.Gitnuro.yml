@@ -1,9 +1,9 @@
 app-id: com.jetpackduba.Gitnuro
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.openjdk21
 command: gitnuro
 finish-args:
   - --socket=x11
@@ -32,13 +32,13 @@ modules:
       - type: file
         path: gitnuro
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.3.1/Gitnuro-linux-x86_64-1.3.1.jar
-        sha256: ef29def5d0ffed54fe1f8b48049be939ff24b04082a683406bc4d29859a360cc
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.0/Gitnuro-linux-x86_64-1.4.0.jar
+        sha256: f5da89514b013871b0749ff1127bf458fbbc457996820b9a5a54942ea507d20a
         only-arches: [x86_64]
         dest-filename: Gitnuro.jar
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.3.1/Gitnuro-linux-arm_aarch64-1.3.1.jar
-        sha256: e934507c885a2818cd3e7ded1155a8505f762409b094752d41913c80a119fd92
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.0/Gitnuro-linux-aarch64-1.4.0.jar
+        sha256: 2e117b072e755a1981f26236ec7fca9d670e29bbaddce68304d34eaded9fad1e
         only-arches: [aarch64]
         dest-filename: Gitnuro.jar
       - type: file
