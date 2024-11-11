@@ -32,13 +32,13 @@ modules:
       - type: file
         path: gitnuro
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.0/Gitnuro-linux-x86_64-1.4.0.jar
-        sha256: f5da89514b013871b0749ff1127bf458fbbc457996820b9a5a54942ea507d20a
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.1/Gitnuro-linux-x86_64-1.4.1.jar
+        sha256: 623eed4aa7596a0e8862a19fa63e8956db26b8a116f0b86facbdb5b13dc269b5
         only-arches: [x86_64]
         dest-filename: Gitnuro.jar
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.0/Gitnuro-linux-aarch64-1.4.0.jar
-        sha256: 2e117b072e755a1981f26236ec7fca9d670e29bbaddce68304d34eaded9fad1e
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.1/Gitnuro-linux-arm_aarch64-1.4.1.jar
+        sha256: 7d24accb8581fd5c36c6da3b2822270b935d6f1b286854a84aa9d6edf9d4e0df
         only-arches: [aarch64]
         dest-filename: Gitnuro.jar
       - type: file
