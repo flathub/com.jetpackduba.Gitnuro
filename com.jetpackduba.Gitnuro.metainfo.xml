@@ -21,6 +21,17 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.4.1" date="2024-11-11">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.4.1</url>
+			<description>
+				<p>Changes</p>
+				<ul>
+					<li>Fixed pre-commit failure makes commit message disappear.</li>
+					<li>Fixed changing git config removes .gitconfig symlink.</li>
+					<li>Fixed crash when opening a repository that can't be watched due to some other error.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.4.0" date="2024-10-01">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.4.0</url>
 			<description>
