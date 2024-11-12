@@ -21,6 +21,15 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.4.2" date="2024-11-12">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.4.2</url>
+			<description>
+				<p>Changes</p>
+				<ul>
+					<li>Fixed changes detection not working (v1.4.1 regression).</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.4.1" date="2024-11-11">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.4.1</url>
 			<description>
