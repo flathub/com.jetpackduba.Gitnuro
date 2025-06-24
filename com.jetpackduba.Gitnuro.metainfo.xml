@@ -21,6 +21,34 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="1.5.0" date="2025-06-24">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.5.0</url>
+			<description>
+				<p>Changes and fixes</p>
+				<ul>
+					<li>Added Git LFS support</li>
+					<li>Added diff highlight</li>
+					<li>Added labels to some buttons to inform about their keybindings.</li>
+					<li>Added date time formatting settings.</li>
+					<li>Implemented SSH credentials caching.</li>
+					<li>Removed commits limit in the log (implemented lazy loading)</li>
+					<li>Reduced recent repositories height and added relative pathing to the parent directory</li>
+					<li>Added log refresh after deleting stash</li>
+					<li>Added stashes visualization in the graph</li>
+					<li>Added automatic snapshot of uncommited changes before merge</li>
+					<li>Copy Branch Name</li>
+					<li>Gravatar usage can be now disabled. When used, now the email addresses are hashed using SHA256.</li>
+					<li>In rebase interactive, fixed clicking on another input field (Reword) crashes the app</li>
+					<li>In rebase interactive, fixed rewording multiple commits inverses messages and puts them on the wrong commit</li>
+					<li>Fixed unnecessary refreshes when opening files, which could end up in infinite loop in certain repositories/systems.</li>
+					<li>Added separator to branches context menu</li>
+					<li>Fixed line in commit graph not scaling</li>
+					<li>Fixed crash when pushing a new branch due to bug in LFS</li>
+					<li>Fixed updates check not repeating requests when required</li>
+					<li>Fixed commit/merge/rebase button being disabled when filtering all items</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.4.3" date="2024-12-20">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.4.3</url>
 			<description>
