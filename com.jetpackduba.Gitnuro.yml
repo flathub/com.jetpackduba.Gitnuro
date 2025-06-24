@@ -19,7 +19,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
+      - /usr/lib/sdk/openjdk21/install.sh
   - name: gitnuro
     buildsystem: simple
     build-commands:
@@ -32,13 +32,13 @@ modules:
       - type: file
         path: gitnuro
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.3/Gitnuro-linux-x86_64-1.4.3.jar
-        sha256: b8ac49cb59b764125213b4059f8a5830d6c97df27d8a26c88ca79bddc59eff28
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.5.0/Gitnuro-linux-x86_64-1.5.0.jar
+        sha256: 128063c3df0ee603b6c133b7e0a32215eb5eaf261aa590bcdcc51f22ac6d6e64
         only-arches: [x86_64]
         dest-filename: Gitnuro.jar
       - type: file
-        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.4.3/Gitnuro-linux-arm_aarch64-1.4.3.jar
-        sha256: 297ced86fe034cc58eaf9ec62233384f33377697af0ce9f1b267fb33b140ef6f
+        url: https://github.com/JetpackDuba/Gitnuro/releases/download/v1.5.0/Gitnuro-linux-arm_aarch64-1.5.0.jar
+        sha256: a009826a9bbdc454b52cc6ac8f6d6adfd43fe328cb87a319c7bf6d0bc62395e7
         only-arches: [aarch64]
         dest-filename: Gitnuro.jar
       - type: file
