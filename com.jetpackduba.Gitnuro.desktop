@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=gitnuro
+Exec=gitnuro %U
 Icon=com.jetpackduba.Gitnuro
 Name=Gitnuro
 Type=Application
