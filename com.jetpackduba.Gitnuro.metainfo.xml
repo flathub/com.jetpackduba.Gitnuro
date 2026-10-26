@@ -21,6 +21,37 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.0.0" date="2026-10-26">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/2.0.0</url>
+			<description>
+				<p>Changes and fixes</p>
+				<ul>
+					<li>Added option to rename a branch (does not work on current branch).</li>
+					<li>Support for commits and tags signing using SSH keys.</li>
+					<li>Support for git-credentials-manager.</li>
+					<li>Added option to open a file in File Explorer (from status and commit changes).</li>
+					<li>Status multiselection to execute tasks in multiple files at the same time.</li>
+					<li>Improved graph design that excels in complex projects with many branches and merges</li>
+					<li>Updated UI themes.</li>
+					<li>Current repository is shown as part of the window title.</li>
+					<li>Menu options are now disabled when they are not usable (example: pull and push when no remote).</li>
+					<li>Support for hooks in Windows without cygwin by using Git Bash</li>
+					<li>Option to show status to amend current commit if there are no status changes</li>
+					<li>Added better error messages.</li>
+					<li>Branches are now merged with their remote counterpart if on the same commit.</li>
+					<li>Rebase edit now automatically picks up the previous message instead of showing an empty commit field.</li>
+					<li>Fetch feature does not prune deleted branches.- Restored load of persisted commit message</li>
+					<li>LFS failing to pull changes in certain providers</li>
+					<li>Stacktrace showing even if there is no exception</li>
+					<li>Monospaced font not being used in the linux build.</li>
+					<li>Conflicting keybindings for macOS.</li>
+					<li>Reduced Gitnuro memory usage for large repositories.</li>
+					<li>Reduced memory usage by cleaning no longer needed Git resources</li>
+					<li>Improved diff loading speed.</li>
+					<li>Directories are now observed for changes independently and following .gitignore rules instead of watching the whole repository. This will result in lower RAM usage and less chance to get a max watches error on linux.</li>
+				</ul>
+			</description>
+		</release>
 		<release version="1.5.0" date="2025-06-24">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/v1.5.0</url>
 			<description>
