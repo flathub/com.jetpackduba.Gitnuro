@@ -21,6 +21,23 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.1.0" date="2026-11-01">
+			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/2.0.0</url>
+			<description>
+			<p>Changes and fixes</p>
+			<ul>
+				<li>Fixed additional info showing without a dialog view</li>
+				<li>Current tab is now selected (on change) if not visible</li>
+				<li>Fix open in terminal opening wrong path in submodules</li>
+				<li>Fixed tabs not stored after opening another repository from current tab</li>
+				<li>Fixed tab being empty if switching between 2 tabs of the same repo</li>
+				<li>Open another repository dialog excludes current repository</li>
+				<li>Fixed opening another repository replaces first tab that matches the current repo path</li>
+				<li>Fixed commit author dialog not being shown when identity is not set</li>
+				<li>Fixed identity labels not showing correct tooltip when no identity is set</li>
+			</ul>
+			</description>
+		</release>
 		<release version="2.0.0" date="2026-10-26">
 			<url>https://github.com/JetpackDuba/Gitnuro/releases/tag/2.0.0</url>
 			<description>
